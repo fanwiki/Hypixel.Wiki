@@ -5,7 +5,9 @@
 #####     It was made because why not! :P , nah, because i wanted to make it easy for me to find somethings on a wiki       page, so i started to remake it but its more understandable. and now i'm doing it! 
 
 #### Hypxel FanWiki is a wiki fully made by Gerg0Vagyok on 
+##### Youtube:
 [![youtube](https://github.com/fanwiki/Hypixel.Wiki/blob/main/resources/youtube.png)](https://www.youtube.com/@Gerg0Vagyok)
+##### Twitter(Its Twitter trust me):
 [![twitter](https://github.com/fanwiki/Hypixel.Wiki/blob/main/resources/twitter.png)](https://www.twitter.com/Gerg0Vagyok)
 
 
