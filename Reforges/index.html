@@ -37,8 +37,6 @@
       border-width: 2.5px;
       background-color: #1a1a1a;
       text-align: center;
-      width: 98%;
-      height: 98%;
     }
 
     td span{
@@ -51,7 +49,6 @@
       bottom: 0;
       right: 0;
       height: 100%;
-      width: 99%;
       background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.93), rgba(26, 26, 26, 0.999)),url(resources/background.png);
       background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.93), rgba(26, 26, 26, 0.999)),image-set(url(resources/background.png) 2x);
       background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.93), rgba(26, 26, 26, 0.999)),-webkit-image-set(url(resources/background.png) 1x,url(background.png) 2x);
@@ -70,15 +67,12 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      width: 100%;
     }
 
     .tables-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      position: relative;
-      left: -25%;
     }
 
     @font-face {
@@ -183,9 +177,8 @@
 
 <div style="height: 1000%; text-align: center;">a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
 
-<div style="height: auto; width: auto;">
 
-<div class="tables-container" id="tables" style="width: 200%;">
+<div class="tables-container" id="tables">
 <div style="border: 2.1px solid #3766c4;">
   <div>
     <span aria-hidden="true">
@@ -196,7 +189,7 @@
   <div class="table-container" id="armorreforges">
 
 
-  <table style="width: 150%;">
+  <table>
     <style>
     .iconimg {
       width: 20px;
@@ -211,14 +204,14 @@
     </style>
   <thead>
     <tr class="row-null">
-      <th class="color-white" style="padding-top: 1.5%; padding-bottom: 1.5%;">Reforge Prefix</th>
-      <th class="color-white" style="padding-top: 1.5%; padding-bottom: 1.5%;">Applied To</th>
-      <th class="color-white" style="padding-top: 1.5%; padding-bottom: 1.5%;">COMMON</th>
-      <th class="color-green" style="padding-top: 1.5%; padding-bottom: 1.5%;">UNCOMMON</th>
-      <th class="color-blue" style="padding-top: 1.5%; padding-bottom: 1.5%;">RARE</th>
-      <th class="color-dark_purple" style="padding-top: 1.5%; padding-bottom: 1.5%;">EPIC</th>
-      <th class="color-gold" style="padding-top: 1.5%; padding-bottom: 1.5%;">LEGENDARY</th>
-      <th class="color-pink" style="padding-top: 1.5%; padding-bottom: 1.5%;">MYTHIC</th>
+      <th class="color-white" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 40%;">Reforge Prefix</th>
+      <th class="color-white" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 25%;">Applied To</th>
+      <th class="color-white" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 25%;">COMMON</th>
+      <th class="color-green" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 140%;">UNCOMMON</th>
+      <th class="color-blue" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 15%;">RARE</th>
+      <th class="color-dark_purple" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 15%;">EPIC</th>
+      <th class="color-gold" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 50%;">LEGENDARY</th>
+      <th class="color-pink" style="padding-top: 1.25%; padding-bottom: 1.25%; width: 25%;">MYTHIC</th>
     </tr>
   </thead>
   <tbody>
@@ -591,7 +584,6 @@
   </tbody>
   </table>
   </div>
-</div>
 </div>
 </div>
 <script>
