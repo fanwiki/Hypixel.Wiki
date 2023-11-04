@@ -77,7 +77,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      position: relative;
+      left: -25%;
     }
 
     @font-face {
@@ -182,9 +183,10 @@
 
 <div style="height: 1000%; text-align: center;">a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
 
+<div style="height: auto; width: auto;">
 
-<div class="tables-container" id="tables">
-<div style="border: 2.1px solid #3766c4; width: 66.5%; height: 100% + 10px;">
+<div class="tables-container" id="tables" style="width: 200%;">
+<div style="border: 2.1px solid #3766c4;">
   <div>
     <span aria-hidden="true">
       <img src="resources/images/DiamondSword.png" width="30" height="30" style="image-rendering: pixelated;">
@@ -194,7 +196,7 @@
   <div class="table-container" id="armorreforges">
 
 
-  <table>
+  <table style="width: 150%;">
     <style>
     .iconimg {
       width: 20px;
@@ -260,32 +262,32 @@
       <td>
         <span class="color-red">+2 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+2% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+4% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+4% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
       <td>
         <span class="color-red">+4 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+3% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+7% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+7% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
       <td>
         <span class="color-red">+6 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+4% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+10% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+10% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
       <td>
         <span class="color-red">+8 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+5% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+14% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+14% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
       <td>
         <span class="color-red">+10 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+6% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+18% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+18% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
       <td>
         <span class="color-red">+12 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
         <span class="color-blue">+8% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
-        <span class="color-blue">+24% <img class="iconimg" src="resources/images/CritChance.png" alt="CD">CD</span>
+        <span class="color-blue">+24% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span>
       </td>
     </tr>
     <tr class="row-one">
@@ -430,111 +432,135 @@
       <td class="color-white">Pure</td>
       <td class="color-white">Armor</td>
       <td>
-        <span class="color-red">+5 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+5 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+2 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+2<img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+2<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+2 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+2% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+2% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+2 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+1% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
       </td>
       <td>
-        <span class="color-red">+7 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+7 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+3 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+3<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+3 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+4% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+3% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+3 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+1% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
+      </td>
+      <td>
+        <span class="color-red">+4 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+4<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+4 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+6% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+4% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+4 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+2% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
+      </td>
+      <td>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+6<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+8% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+6% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+6 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+3% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
+      </td>
+      <td>
+        <span class="color-red">+8 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+8<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+8 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+10% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+8% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+8 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+4% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
       </td>
       <td>
         <span class="color-red">+10 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+10 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
-      </td>
-      <td>
-        <span class="color-red">+15 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+15 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+8 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
-      </td>
-      <td>
-        <span class="color-red">+20 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+20 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+10 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
-      </td>
-      <td>
-        <span class="color-red">+25 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+25 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+12 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-green">+10<img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-red">+10 <img class="iconimg" src="resources/images/Strength.png" alt="STR">STR</span><br>
+        <span class="color-blue">+12% <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span><br>
+        <span class="color-blue">+10% <img class="iconimg" src="resources/images/CritDamage.png" alt="CD">CD</span><br>
+        <span class="color-white">+1 <img class="iconimg" src="resources/images/Speed.png" alt="SPD">SPD</span><br>
+        <span class="color-aqua">+10 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-yellow">+5% <img class="iconimg" src="resources/images/AttackSpeed.png" alt="AS">AS</span>
       </td>
     </tr>
     <tr class="row-one">
       <td class="color-white">Titanic</td>
       <td class="color-white">Armor</td>
       <td>
-        <span class="color-red">+5 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+5 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+2 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
-      </td>
-      <td>
-        <span class="color-red">+7 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+7 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
-      </td>
-      <td>
         <span class="color-red">+10 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+10 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-green">+10 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
       </td>
       <td>
         <span class="color-red">+15 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+15 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+8 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-green">+15 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
       </td>
       <td>
         <span class="color-red">+20 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+20 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+10 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-green">+20 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
       </td>
       <td>
         <span class="color-red">+25 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+25 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+12 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-green">+25 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
+      </td>
+      <td>
+        <span class="color-red">+35 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+35 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
+      </td>
+      <td>
+        <span class="color-red">+50 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+50 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span>
       </td>
     </tr>
     <tr class="row-two">
       <td class="color-white">Smart</td>
       <td class="color-white">Armor</td>
       <td>
-        <span class="color-red">+5 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+5 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+2 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+1 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+25 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
-        <span class="color-red">+7 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+7 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+1 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+50 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
-        <span class="color-red">+10 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+10 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+6 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+1 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+75 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
-        <span class="color-red">+15 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+15 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+8 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+2 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+100 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
-        <span class="color-red">+20 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+20 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+10 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+2 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+125 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
-        <span class="color-red">+25 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+25 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+12 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+6 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-aqua">+3 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span><br>
+        <span class="color-aqua">+150 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
     </tr>
     <tr class="row-one">
       <td class="color-white">Anctient</td>
       <td class="color-white">Armor</td>
       <td>
-        <span class="color-red">+5 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
-        <span class="color-green">+5 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
-        <span class="color-blue">+2 <img class="iconimg" src="resources/images/CritChance.png" alt="CC">CC</span>
+        <span class="color-red">+20 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
+        <span class="color-green">+20 <img class="iconimg" src="resources/images/Defense.png" alt="DEF">DEF</span><br>
+        <span class="color-aqua">+120 <img class="iconimg" src="resources/images/Intelligence.png" alt="INT">INT</span>
       </td>
       <td>
         <span class="color-red">+7 <img class="iconimg" src="resources/images/Health.png" alt="HP">HP</span><br>
@@ -565,6 +591,7 @@
   </tbody>
   </table>
   </div>
+</div>
 </div>
 </div>
 <script>
